@@ -3,8 +3,8 @@
 there are a total of three types of design patterns
 
 - [creational](#creational-design-patterns)
-    + [builder](#builder)
-    + [factory method](#factory-method)
+  + [builder](#builder)
+  + [factory method](#factory-method)
 
 [structural](#structural-design-patterns)
 
@@ -12,7 +12,7 @@ there are a total of three types of design patterns
 
 ## creational-design-patterns
 
-### builder
+### :point_right: builder
 Use the Builder design pattern when you need to construct complex objects step-by-step, allowing for flexibility and customization in the construction process, while separating the construction logic from the representation of the object.
 #### when we might need to use builder design pattern?
 + When creating objects with many optional parameters that can result in a large number of constructor overloads
