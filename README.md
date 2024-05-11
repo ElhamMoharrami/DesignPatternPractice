@@ -4,7 +4,7 @@ there are a total of three types of design patterns
 
 - [creational](#creational-design-patterns)
   + [builder](#builder)
-  + [Factory Method](#factory_method)
+  + [Factory Method](#factory-method)
 
 [structural](#structural-design-patterns)
 
