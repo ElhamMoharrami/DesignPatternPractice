@@ -12,7 +12,7 @@ there are a total of three types of design patterns
 
 ## creational-design-patterns
 
-### :point_right: builder
+### builder
 Use the Builder design pattern when you need to construct complex objects step-by-step, allowing for flexibility and customization in the construction process, while separating the construction logic from the representation of the object.
 #### when we might need to use builder design pattern?
 + When creating objects with many optional parameters that can result in a large number of constructor overloads
@@ -62,7 +62,7 @@ Use the Builder design pattern when you need to construct complex objects step-b
 #### example:
 the problem: Consider a scenario where we have a Person class with multiple attributes and we want to create instances of this class with different combinations of attributes.
 you can find the implementation under creational.builder
-### :point_right: factory method
+### factory method
 Use the Factory Method design pattern when you need to provide a common interface for creating objects, but also allow for subclasses to define their own concrete implementation of the creation process.
 #### when we might need to use factory method design pattern?
 + Decouple the creation of objects from the clients: When you have a client code that needs to create objects, but you want to decouple the object creation process from the client code. The Factory Method pattern allows you to create objects without exposing the client code to the specific implementation details.
